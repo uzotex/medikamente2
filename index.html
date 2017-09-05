@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link data-require="bootstrap@*" data-semver="4.0.5" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+    <link data-require="bootstrap-css@*" data-semver="4.0.0-alpha.4" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" />
+    <script data-require="bootstrap@*" data-semver="4.0.5" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+    <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="nav">
+      <img src="https://github.com/uzotex/pepperProject/blob/master/akh_logo.png?raw=true" />
+    </div>
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-xs-4"></div>
+        <div class="col-xs-4 text-center">
+          <h1>Medikamente</h1>
+          <p class="p2">Medikamentensuche</p>
+          <div class="well well-lg">
+            <form class="form-inline">
+              <div class="input-group">
+                <input type="text" class="form-control" size="50" id="search" placeholder="Suchen" />
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-danger">Suchen</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-xs-4"></div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <table class="table table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Substanzname</th>
+            <th>Substanzklasse</th>
+            <th>Tagesdosis</th>
+            <th>Dosierung</th>
+            <th>Startdosis</th>
+            <th>Dosisreduktion</th>
+            <th>Tageshöchstdosis</th>
+            <th>Nebenwirkungen</th>
+            <th>Antidot</th>
+            <th>Kontraindikation</th>
+            <th>Kommentare fix</th>
+            <th>Kommentare jedes</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
+
+</html>
