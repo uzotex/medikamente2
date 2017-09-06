@@ -2,10 +2,12 @@
 .jumbotron{
  background-image: url(https://github.com/uzotex/pepperProject/blob/master/med_bgImage1.png?raw=true);
   color:#007ab3;
-  height: 330px;
+  
 }
 .nav{
   background-color:#007ab3;
+
+  
 }
 .p2{
   color:#000000;
